@@ -15,3 +15,4 @@ E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo.I
 E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\refint\JuiceGo.Infrastructure.dll
 E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo.Infrastructure.pdb
 E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\ref\JuiceGo.Infrastructure.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo.Infrastructure.sourcelink.json

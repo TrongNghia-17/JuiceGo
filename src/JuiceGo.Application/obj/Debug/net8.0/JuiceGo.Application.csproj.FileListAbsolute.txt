@@ -13,3 +13,4 @@ E:\Backend\Project\JuiceGo\src\JuiceGo.Application\obj\Debug\net8.0\JuiceGo.Appl
 E:\Backend\Project\JuiceGo\src\JuiceGo.Application\obj\Debug\net8.0\refint\JuiceGo.Application.dll
 E:\Backend\Project\JuiceGo\src\JuiceGo.Application\obj\Debug\net8.0\JuiceGo.Application.pdb
 E:\Backend\Project\JuiceGo\src\JuiceGo.Application\obj\Debug\net8.0\ref\JuiceGo.Application.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Application\obj\Debug\net8.0\JuiceGo.Application.sourcelink.json

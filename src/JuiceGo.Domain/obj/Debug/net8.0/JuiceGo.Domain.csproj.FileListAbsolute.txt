@@ -9,3 +9,4 @@ E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\JuiceGo.Domain.dl
 E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\refint\JuiceGo.Domain.dll
 E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\JuiceGo.Domain.pdb
 E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\ref\JuiceGo.Domain.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\JuiceGo.Domain.sourcelink.json
