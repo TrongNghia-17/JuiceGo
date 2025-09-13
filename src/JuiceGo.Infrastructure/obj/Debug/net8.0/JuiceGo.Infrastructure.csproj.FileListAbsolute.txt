@@ -1,0 +1,17 @@
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\bin\Debug\net8.0\JuiceGo.Infrastructure.deps.json
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\bin\Debug\net8.0\JuiceGo.Infrastructure.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\bin\Debug\net8.0\JuiceGo.Infrastructure.pdb
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\bin\Debug\net8.0\JuiceGo.Application.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\bin\Debug\net8.0\JuiceGo.Domain.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\bin\Debug\net8.0\JuiceGo.Application.pdb
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\bin\Debug\net8.0\JuiceGo.Domain.pdb
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo.Infrastructure.csproj.AssemblyReference.cache
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo.Infrastructure.AssemblyInfoInputs.cache
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo.Infrastructure.AssemblyInfo.cs
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo..851E799F.Up2Date
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo.Infrastructure.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\refint\JuiceGo.Infrastructure.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\JuiceGo.Infrastructure.pdb
+E:\Backend\Project\JuiceGo\src\JuiceGo.Infrastructure\obj\Debug\net8.0\ref\JuiceGo.Infrastructure.dll

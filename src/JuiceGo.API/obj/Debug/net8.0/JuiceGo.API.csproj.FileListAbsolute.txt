@@ -1,0 +1,7 @@
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\obj\Debug\net8.0\JuiceGo.API.csproj.AssemblyReference.cache
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\obj\Debug\net8.0\JuiceGo.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\obj\Debug\net8.0\JuiceGo.API.AssemblyInfoInputs.cache
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\obj\Debug\net8.0\JuiceGo.API.AssemblyInfo.cs
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\obj\Debug\net8.0\JuiceGo.API.csproj.CoreCompileInputs.cache
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\obj\Debug\net8.0\JuiceGo.API.MvcApplicationPartsAssemblyInfo.cs
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\obj\Debug\net8.0\JuiceGo.API.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,11 @@
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\bin\Debug\net8.0\JuiceGo.Domain.deps.json
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\bin\Debug\net8.0\JuiceGo.Domain.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\bin\Debug\net8.0\JuiceGo.Domain.pdb
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\JuiceGo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\JuiceGo.Domain.AssemblyInfoInputs.cache
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\JuiceGo.Domain.AssemblyInfo.cs
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\JuiceGo.Domain.csproj.CoreCompileInputs.cache
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\JuiceGo.Domain.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\refint\JuiceGo.Domain.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\JuiceGo.Domain.pdb
+E:\Backend\Project\JuiceGo\src\JuiceGo.Domain\obj\Debug\net8.0\ref\JuiceGo.Domain.dll
