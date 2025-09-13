@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuiceGo.API", "JuiceGo.API\JuiceGo.API.csproj", "{B84E46A3-02BD-4D62-A333-40BF3F91D90C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuiceGo.Domain", "JuiceGo.Domain\JuiceGo.Domain.csproj", "{EF098457-D668-4067-BC8B-E017A0BFC45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuiceGo.Application", "JuiceGo.Application\JuiceGo.Application.csproj", "{009733D8-E4AE-46BF-848E-F679F9B441C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuiceGo.Infrastructure", "JuiceGo.Infrastructure\JuiceGo.Infrastructure.csproj", "{19CC5727-D075-4D76-B96B-AE30EE69892D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B84E46A3-02BD-4D62-A333-40BF3F91D90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84E46A3-02BD-4D62-A333-40BF3F91D90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84E46A3-02BD-4D62-A333-40BF3F91D90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84E46A3-02BD-4D62-A333-40BF3F91D90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF098457-D668-4067-BC8B-E017A0BFC45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF098457-D668-4067-BC8B-E017A0BFC45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF098457-D668-4067-BC8B-E017A0BFC45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF098457-D668-4067-BC8B-E017A0BFC45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009733D8-E4AE-46BF-848E-F679F9B441C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009733D8-E4AE-46BF-848E-F679F9B441C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009733D8-E4AE-46BF-848E-F679F9B441C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009733D8-E4AE-46BF-848E-F679F9B441C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19CC5727-D075-4D76-B96B-AE30EE69892D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CC5727-D075-4D76-B96B-AE30EE69892D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CC5727-D075-4D76-B96B-AE30EE69892D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CC5727-D075-4D76-B96B-AE30EE69892D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E891FC4C-FDDC-4E93-A416-9F7F123181EB}
+	EndGlobalSection
+EndGlobal
