@@ -1,4 +1,5 @@
 ﻿using JuiceGo.Domain.Entities;
+using JuiceGo.Infrastructure.FluentConfig;
 using Microsoft.EntityFrameworkCore;
 
 namespace JuiceGo.Infrastructure.Persistence;
@@ -10,28 +11,10 @@ internal class JuiceGoDbContext(DbContextOptions<JuiceGoDbContext> options) : Db
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        base.OnModelCreating(modelBuilder);
+        //base.OnModelCreating(modelBuilder);                
 
-        modelBuilder.Entity<Category>(entity =>
-        {
-            entity.Property(c => c.Name)
-                .HasMaxLength(100)
-                .IsRequired();
-        });
+        modelBuilder.ApplyConfiguration(new CategoryConfig());
+        modelBuilder.ApplyConfiguration(new ProductConfig());
 
-        modelBuilder.Entity<Product>(entity =>
-        {
-            entity.Property(p => p.Name)
-                .HasMaxLength(200)
-                .IsRequired();
-
-            entity.Property(p => p.Price)
-                .HasPrecision(18, 2);
-
-            entity.HasOne<Category>()
-                .WithMany(c => c.Products)
-                .HasForeignKey(p => p.CategoryId)
-                .OnDelete(DeleteBehavior.Restrict);
-        });
     }
 }

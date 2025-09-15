@@ -1,4 +1,5 @@
 ﻿using JuiceGo.Infrastructure.Persistence;
+using JuiceGo.Infrastructure.Seeders;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,5 +14,7 @@ public static class ServiceCollectionExtensions
         services.AddDbContext<JuiceGoDbContext>(options =>
             options.UseNpgsql(connectionString)
                 .EnableSensitiveDataLogging());
+
+        services.AddScoped<IJuiceGoSeeder, JuiceGoSeeder>();
     }
 }

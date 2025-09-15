@@ -10,6 +10,7 @@ public class Product
     public int StockQuantity { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
+
     public Guid CategoryId { get; set; }
     public Category Category { get; set; } = default!;
 }

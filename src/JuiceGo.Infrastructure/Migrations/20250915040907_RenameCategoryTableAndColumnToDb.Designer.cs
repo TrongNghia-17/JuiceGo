@@ -3,6 +3,7 @@ using System;
 using JuiceGo.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace JuiceGo.Infrastructure.Migrations
 {
     [DbContext(typeof(JuiceGoDbContext))]
-    partial class JuiceGoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250915040907_RenameCategoryTableAndColumnToDb")]
+    partial class RenameCategoryTableAndColumnToDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -26,13 +29,11 @@ namespace JuiceGo.Infrastructure.Migrations
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid")
-                        .HasColumnName("CategoryId");
+                        .HasColumnType("uuid");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("character varying(100)")
+                        .HasColumnType("text")
                         .HasColumnName("CategoryName");
 
                     b.HasKey("Id");
@@ -49,6 +50,9 @@ namespace JuiceGo.Infrastructure.Migrations
                     b.Property<Guid>("CategoryId")
                         .HasColumnType("uuid");
 
+                    b.Property<Guid>("CategoryId1")
+                        .HasColumnType("uuid");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
@@ -60,10 +64,12 @@ namespace JuiceGo.Infrastructure.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("numeric");
+                        .HasPrecision(18, 2)
+                        .HasColumnType("numeric(18,2)");
 
                     b.Property<int>("StockQuantity")
                         .HasColumnType("integer");
@@ -72,14 +78,22 @@ namespace JuiceGo.Infrastructure.Migrations
 
                     b.HasIndex("CategoryId");
 
+                    b.HasIndex("CategoryId1");
+
                     b.ToTable("Products");
                 });
 
             modelBuilder.Entity("JuiceGo.Domain.Entities.Product", b =>
                 {
-                    b.HasOne("JuiceGo.Domain.Entities.Category", "Category")
+                    b.HasOne("JuiceGo.Domain.Entities.Category", null)
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("JuiceGo.Domain.Entities.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
