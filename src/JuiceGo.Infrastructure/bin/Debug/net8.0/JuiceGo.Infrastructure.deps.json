@@ -177,7 +177,8 @@
       },
       "JuiceGo.Application/1.0.0": {
         "dependencies": {
-          "JuiceGo.Domain": "1.0.0"
+          "JuiceGo.Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
         },
         "runtime": {
           "JuiceGo.Application.dll": {

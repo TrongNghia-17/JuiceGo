@@ -1,8 +1,4 @@
-﻿using JuiceGo.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace JuiceGo.Infrastructure.FluentConfig;
+﻿namespace JuiceGo.Infrastructure.FluentConfig;
 
 public class CategoryConfig : IEntityTypeConfiguration<Category>
 {

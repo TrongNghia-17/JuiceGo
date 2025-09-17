@@ -1,8 +1,4 @@
-﻿using JuiceGo.Domain.Entities;
-using JuiceGo.Infrastructure.FluentConfig;
-using Microsoft.EntityFrameworkCore;
-
-namespace JuiceGo.Infrastructure.Persistence;
+﻿namespace JuiceGo.Infrastructure.Persistence;
 
 internal class JuiceGoDbContext(DbContextOptions<JuiceGoDbContext> options) : DbContext(options)
 {

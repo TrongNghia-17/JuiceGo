@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JuiceGo.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+400f21b9ef56d2d9b9a25fcf7fbc83aa1f7039ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d71937d25ecaa6515ce19847ee65d2038120de5")]
 [assembly: System.Reflection.AssemblyProductAttribute("JuiceGo.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JuiceGo.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

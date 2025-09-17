@@ -1,9 +1,4 @@
-﻿using JuiceGo.Domain.Entities;
-using JuiceGo.Infrastructure.Persistence;
-using Microsoft.EntityFrameworkCore;
-using System.Net;
-
-namespace JuiceGo.Infrastructure.Seeders;
+﻿namespace JuiceGo.Infrastructure.Seeders;
 
 internal class JuiceGoSeeder(JuiceGoDbContext dbContext) : IJuiceGoSeeder
 {

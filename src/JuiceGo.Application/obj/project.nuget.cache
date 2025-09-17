@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4HRgNpRWCrQ=",
+  "dgSpecHash": "0PgZGcODt04=",
   "success": true,
   "projectFilePath": "E:\\Backend\\Project\\JuiceGo\\src\\JuiceGo.Application\\JuiceGo.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

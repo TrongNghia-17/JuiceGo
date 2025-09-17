@@ -1,0 +1,10 @@
+﻿global using JuiceGo.Domain.Repositories;
+global using JuiceGo.Domain.Entities;
+global using JuiceGo.Infrastructure.Persistence;
+global using JuiceGo.Infrastructure.Repositories;
+global using JuiceGo.Infrastructure.Seeders;
+global using JuiceGo.Infrastructure.FluentConfig;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;

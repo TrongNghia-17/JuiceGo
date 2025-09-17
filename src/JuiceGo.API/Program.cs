@@ -1,5 +1,7 @@
+using JuiceGo.Application.Extensions;
 using JuiceGo.Infrastructure.Extensions;
 using JuiceGo.Infrastructure.Seeders;
+using System;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
 //builder.Services.AddEndpointsApiExplorer();
@@ -15,10 +18,12 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
-var scope = app.Services.CreateScope();
-var seeder = scope.ServiceProvider.GetRequiredService<IJuiceGoSeeder>();
-
-await seeder.Seed();
+if (app.Environment.IsDevelopment())
+{
+    var scope = app.Services.CreateScope();
+    var seeder = scope.ServiceProvider.GetRequiredService<IJuiceGoSeeder>();
+    await seeder.Seed();
+}
 
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
