@@ -59,16 +59,6 @@ internal class JuiceGoSeeder(JuiceGoDbContext dbContext) : IJuiceGoSeeder
                 ImageUrl = "/images/orange-juice.jpg",
                 CategoryId = categoryDict["Nước Ép Trái Cây"]
             },
-            new Product
-            {
-                Id = Guid.NewGuid(),
-                Name = "Nước Ép Dứa",
-                Description = "Vị ngọt thanh mát của dứa tươi giúp giải nhiệt hiệu quả.",
-                Price = 30000,
-                StockQuantity = 80,
-                ImageUrl = "/images/pineapple-juice.jpg",
-                CategoryId = categoryDict["Nước Ép Trái Cây"]
-            },
 
             new Product
             {
@@ -78,16 +68,6 @@ internal class JuiceGoSeeder(JuiceGoDbContext dbContext) : IJuiceGoSeeder
                 Price = 45000,
                 StockQuantity = 50,
                 ImageUrl = "/images/avocado-smoothie.jpg",
-                CategoryId = categoryDict["Sinh Tố"]
-            },
-            new Product
-            {
-                Id = Guid.NewGuid(),
-                Name = "Sinh Tố Xoài",
-                Description = "Hương vị nhiệt đới từ xoài chín cây ngọt lịm.",
-                Price = 40000,
-                StockQuantity = 60,
-                ImageUrl = "/images/mango-smoothie.jpg",
                 CategoryId = categoryDict["Sinh Tố"]
             },
 
