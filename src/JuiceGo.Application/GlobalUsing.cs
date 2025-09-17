@@ -2,6 +2,9 @@
 global using Microsoft.Extensions.Logging;
 global using JuiceGo.Application.Products;
 global using JuiceGo.Application.Products.Dtos;
+global using JuiceGo.Application.Products.Commands.CreateProduct;
 global using JuiceGo.Domain.Entities;
 global using JuiceGo.Domain.Repositories;
+global using FluentValidation;
 global using AutoMapper;
+global using MediatR;

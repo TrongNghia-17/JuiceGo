@@ -119,3 +119,7 @@ E:\Backend\Project\JuiceGo\src\JuiceGo.API\bin\Debug\net8.0\Microsoft.IdentityMo
 E:\Backend\Project\JuiceGo\src\JuiceGo.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
 E:\Backend\Project\JuiceGo\src\JuiceGo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 E:\Backend\Project\JuiceGo\src\JuiceGo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\bin\Debug\net8.0\FluentValidation.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\bin\Debug\net8.0\MediatR.dll
+E:\Backend\Project\JuiceGo\src\JuiceGo.API\bin\Debug\net8.0\MediatR.Contracts.dll

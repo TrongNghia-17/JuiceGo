@@ -4,7 +4,10 @@ public static class ServiceCollectionExtensions
 {
     public static void AddApplication(this IServiceCollection services)
     {
-        services.AddScoped<IProductsService, ProductsService>();
-        services.AddAutoMapper(cfg => { }, typeof(ServiceCollectionExtensions).Assembly);
+        var applicationAssembly = typeof(ServiceCollectionExtensions).Assembly;
+
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(applicationAssembly));
+        services.AddAutoMapper(cfg => { }, applicationAssembly);
+        services.AddValidatorsFromAssembly(applicationAssembly);
     }
 }
