@@ -2,5 +2,5 @@
 
 public interface IProductsService
 {
-    Task<IEnumerable<Product>> GetAllProducts();
+    Task<IEnumerable<ProductDto>> GetAllProducts();
 }
